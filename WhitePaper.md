@@ -37,14 +37,14 @@ Private contracts is a unique feature offered by DERO.
 
 ## CHALLENGES
 * **IDENTITY AND KYC: VERIFICATION AND LIMITING MISUSE**\
-    DERO wallets can be used as Identity after the wallet address is signed and verified by a certifying authority attached to the holder’s documents. Addresses can be then treated as Identity by the certifying authority. A new Ghost Address can be used to verify the identity of an Individual with different/same service providers, with limit set to one time use only. Even if a vendor sells/shares/misuses an Individual address, it would be pointless. Certifying authorities can be Governments, Organizations, Banks, Telecom Operators, Mastercard, VISA, Payment Processors, Aviation Industry etc. Any Organization can also accept wallets already certified by other organizations. Whenever a service provider needs to verify KYC details, authorization needs to be cleared by the wallet holder for the service provider seeking KYC details. The service provider gets to know only that the wallet user is certified and authorized for its services, and no personal details are visible to the service provider. Only certifying authorities have full details of wallets. Hardware wallets with biometric protections will be integrated for maximum security.
+    DERO wallets can be used as Identity after the wallet address is signed and verified by a certifying authority attached to the holder’s documents. Addresses can be then treated as Identity by the certifying authority. A new Sub Address can be used to verify the identity of an Individual with different/same service providers, with limit set to one time use only. Even if a vendor sells/shares/misuses an Individual address, it would be pointless. Certifying authorities can be Governments, Organizations, Banks, Telecom Operators, Mastercard, VISA, Payment Processors, Aviation Industry etc. Any Organization can also accept wallets already certified by other organizations. Whenever a service provider needs to verify KYC details, authorization needs to be cleared by the wallet holder for the service provider seeking KYC details. The service provider gets to know only that the wallet user is certified and authorized for its services, and no personal details are visible to the service provider. Only certifying authorities have full details of wallets. Hardware wallets with biometric protections will be integrated for maximum security.
 * **VOTING: SAFE, SECURE AND TRANSPARENT**\
     DERO blockchain allows the creation of a voting smart contract and a list of voters by distributing authorization codes, or previously signed wallets, that permit their owners to cast and verify votes.
       Due to CryptoNote Protocol and Ring Signatures cryptographic implementation, it's impossible to correlate voters with their votes. 
 * **ASSET MANAGEMENT: PRIVATE AND AUDITABLE** \
-    Assets can be recorded and distributed on the DERO blockchain without revealing complete identity details to the world by using Ghost Addresses, and can also be auditable and verifiable to authorities and auditors. Viewkeys can be created for audits. Land, property, car registrations etc. can easily be recorded and maintained on the DERO blockchain. 
+    Assets can be recorded and distributed on the DERO blockchain without revealing complete identity details to the world by using Sub Addresses, and can also be auditable and verifiable to authorities and auditors. Viewkeys can be created for audits. Land, property, car registrations etc. can easily be recorded and maintained on the DERO blockchain. 
 * **2FA AUTHENTICATOR: SECURE PASSWORD MANAGEMENT AND ACCESS**\
-	  DERO blockchain plans to integrate DERO authenticator with OTP and secure passwords for authentication and authorization. Ghost Address can be used as the username, and if required an OTP password will appear in the wallet. An API and SDKs will be provided to service providers to integrate existing infrastructure with the DERO blockchain, and create a more secure environment to protect their users.
+	  DERO blockchain plans to integrate DERO authenticator with OTP and secure passwords for authentication and authorization. Sub Address can be used as the username, and if required an OTP password will appear in the wallet. An API and SDKs will be provided to service providers to integrate existing infrastructure with the DERO blockchain, and create a more secure environment to protect their users.
 * **Integration with Telecom Gateways**\
   	DERO blockchain will be integrated with Telecom Gateways to send and receive SMS messages.
 Certified wallets will be able to send and receive SMS messages with other services. OTP SMS will be relayed to wallet.
@@ -56,7 +56,7 @@ Certified wallets will be able to send and receive SMS messages with other servi
 - Atomic Swaps
 - Mobile and Offline Wallets
 - Lightweight Wallet
-- Ghost Addresses
+- Sub Addresses
 - Escrow Based on Votes
 - Address Signing and Certifying 
 - Voting
@@ -69,7 +69,7 @@ Certified wallets will be able to send and receive SMS messages with other servi
 
 ## ROADMAP
 * DERO Blockchain full Activation: Q1 2018.
-* GUI Wallets, Ghost Addresses, Atomic Swap, Smart Contract Testing: Q2 2018.
+* GUI Wallets, Sub Addresses, Atomic Swap, Smart Contract Testing: Q2 2018.
 * Smart Contract support on chain. Q3 2018. 
 * Strategic market expansion.  
 
