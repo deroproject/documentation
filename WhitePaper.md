@@ -21,7 +21,7 @@
 
   Blockchain is an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way.
 
-  CryptoNote Protocol use a distributed public ledger that records all balances and transactions of its in-built currency like Bitcoin. Unlike Bitcoin, CryptoNote's transactions cannot be followed through the blockchain in a way that reveals who sent or received coins.The only people with access to the whole set of data about a transaction are the sender or receiver of the transaction.
+  CryptoNote Protocol uses a distributed public ledger that records all balances and transactions of its built-in currency like Bitcoin. Unlike Bitcoin, CryptoNote's transactions cannot be followed through the blockchain in a way that reveals who sent or received coins.The only people with access to the whole set of data about a transaction are the sender or receiver of the transaction.
 
   Smart Contract is a protocol intended to facilitate, verify, and enforce the negotiation or execution of a digital contract. Smart contracts allow for direct contract execution without a third party. These transactions are trackable and irreversible. Smart contracts were first proposed by Nick Szabo in 1994.
 
