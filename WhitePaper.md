@@ -2,6 +2,7 @@
 
 ## Table of contents
 * **SUMMARY**
+* **UNANNOUNCED TECHNOLOGY**
 * **CHALLENGES**
   *  **IDENTITY AND KYC: VERIFICATION AND LIMITING MISUSE**  
   *  **VOTING: SAFE, SECURE, AND TRANSPARENT**  
@@ -38,6 +39,14 @@ Some brief examples of what a smart contract is capable of managing without thir
 
 Truly private smart contracts are a unique feature offered by DERO that other projects to date (April.10/2018) do not offer. Dero accomplishes this by keeping all aspects of the transaction, smart contract, and users details private on the original blockchain without the need to trust sensitive or otherwise private information to second layer or off-chain solutions.
 
+## UNANOUNCED TECHNOLOGY
+
+* **Complete SSL implementation: a first on the blockchain**
+
+Dero has implemented complete SSL across the our network using automatically created self signed certificates. To the best of our knowledge, this is a first on the blockchain. This encrypts the entirety of our network traffic, which greatly reduces our attack surface, while simultaneously preventing ISPs from analyzing Dero’s network traffic or sniffing out any data.
+
+Imagine for a moment that you’re trying to make use of a blockchain network in a country or area where the use of this technology is restricted; for those who know what to look for, they only need to analyze your network traffic to get a clear idea of what you’re up to and how to prevent it. By utilizing a complete SSL implementation across Dero’s entire network this is effectively mitigated.
+
 ## CHALLENGES
 * **Identification and know-your-client (KYC):**\
     Having briefly touched upon the need for privacy on the blockchain we must also address the need for some degree of transparency in certain limited situations. Dero will allow thoroughly verified and publicly known certifying authorities to add their signature to individual wallets, and only for those who have applied. This signature serves as confirmation that your identity has been verified by a certifying authority such as a Government, Bank, telecom operator, Visa, Mastercard, or other organizations as required.
@@ -66,6 +75,7 @@ Any individual or organization that choose Dero’s blockchain for asset managem
 	
 ## DERO KEY FEATURES
 
+- **World first complete SSL on a blockchain:** Dero has implemented complete SSL across the Dero network using automatically created self signed certificates. To the best of our knowledge, this is a first on the blockchain. This encrypts the entirety of our network traffic, which greatly reduces our attack surface, while simultaneously preventing ISPs from analyzing Dero’s network traffic or sniffing out any data.
 - **CryptoNote privacy:** CryptoNote currencies use a distributed public ledger that records all balances and transactions of its in-built currency like Bitcoin. Unlike Bitcoin, CryptoNote’s transactions cannot be followed through the blockchain in a way that reveals who sent or received coins. Dero utilizes all aspects of the CryptoNote protocol’s privacy features in its new blockchain technology to protect the identities of all parties involved in a transaction.
 - **Smart contracts:** A smart contract is a digital self-executing contract that is capable of enforcing the terms laid out by all participants in the contract. One of the goals of a smart contract is to significantly increase contract security while simultaneously reducing costs associated with traditional contracts.
 - **Atomic swaps:** Atomic swaps make the exchange of one cryptocurrency for another possible without the need for a trusted third-party. To prevent one party from failing to send their coins, atomic swaps use something called hash time-locked contacts (HTLCs) to enable a trustless trading system.
