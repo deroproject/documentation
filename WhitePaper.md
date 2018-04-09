@@ -1,13 +1,13 @@
-## DERO Blockchain White Paper (Draft Version)
+## DERO Blockchain White Paper (Draft version 2)
 
-## Table of Contents
+## Table of contents
 * **SUMMARY**
 * **CHALLENGES**
-  * **IDENTITY AND KYC: VERIFICATION AND LIMITING MISUSE**
-  * **VOTING: SAFE, SECURE, AND TRANSPARENT** 
-  * **ASSET MANAGEMENT: PRIVATE AND AUDITABLE**
-  * **2FA AUTHENTICATOR: SECURE PASSWORD MANAGEMENT AND ACCESS**
-  * **INTEGRATION WITH TELECOM GATEWAYS**
+  *  **IDENTITY AND KYC: VERIFICATION AND LIMITING MISUSE**  
+  *  **VOTING: SAFE, SECURE, AND TRANSPARENT**  
+  *  **ASSET MANAGEMENT: PRIVATE AND AUDITABLE**  
+  *  **2FA AUTHENTICATOR: SECURE PASSWORD MANAGEMENT AND ACCESS**  
+  *  **INTEGRATION WITH TELECOM GATEWAYS** 
 * **DERO KEY FEATURES**
 * **DERO VIRTUAL MACHINE**
 * **ROADMAP**
@@ -17,15 +17,16 @@
 
 ## SUMMARY
 
-  DERO is a new, experimental blockchain technology written in Golang with a focus on enhanced Privacy and Smart Contracts while maintaining the transparency and security of the blockchain. The goal is to create a unique state of the art blockchain technology with enhanced Reliability, Privacy, Security, Usability, and Portability by bringing together some of the best proven technologies like CryptoNote Protocol and Smart Contracts, thereby allowing for the creation of Private Smart Contracts.
+  Dero is a new, experimental blockchain technology written in Golang, and based on the CryptoNote protocol, with a focus on enhanced privacy, and the implementation of smart contracts. Dero's goal is to create a unique state of the art blockchain technology with enhanced reliability, privacy, security, usability, and portability by bringing together some of the best proven technologies like the CryptoNote Protocol, and smart contracts, thereby allowing for the creation of truly private smart contracts.
 
-  Blockchain is an open, distributed ledger that can record transactions between two parties efficiently, and in a verifiable and permanent way.
+  A blockchain is an open, distributed ledger that can record transactions between two parties efficiently, in a verifiable, and immutable way.
 
-  CryptoNote Protocol uses a distributed public ledger that records all balances and transactions of its in-built currency like Bitcoin. Unlike Bitcoin, CryptoNote's transactions cannot be followed through the blockchain in a way that reveals who sent or received coins. The only people with access to the whole set of data about a transaction are the sender or receiver of the transaction.
+  The CryptoNote protocol uses a distributed public ledger that records all balances and transactions of its in-built currency like Bitcoin. Unlike Bitcoin, CryptoNote's transactions cannot be followed through the blockchain in a way that reveals who sent or received coins.
 
-  A smart Contract is a protocol intended to facilitate, verify, and enforce the negotiation or execution of a digital contract. Smart contracts allow for direct contract execution without a third party. These transactions are trackable and irreversible. Smart contracts were first proposed by Nick Szabo in 1994.
+  A smart contract is a protocol intended to facilitate, verify, and enforce the negotiation or execution of a digital contract. Smart contracts allow for direct contract execution without a third party. One of the goals of a smart contract is to significantly increase contract security while simultaneously reducing costs associated with traditional contracts. These transactions are irreversible, otherwise known as immutable. Smart contracts were first proposed by Nick Szabo in 1994.
 
-  For more details about Blockchain, CryptoNote Protocol, and Smart Contract see:
+
+  For more details about blockchain technology, the CryptoNote Protocol, and smart contracts please see:
   * https://en.wikipedia.org/wiki/Blockchain
   * https://en.wikipedia.org/wiki/CryptoNote
   * https://cryptonote.org/whitepaper.pdf
@@ -35,7 +36,7 @@
 Some brief examples of what a smart contract is capable of managing without third-party intervention include: access authorization to a physical object like a building or internet-of-things (IoT) devices, asset management, trading, ticket purchasing, or share distribution. In some instances, an individual or organization would prefer not to reveal the details of the transaction or contract (i.e. participants, amounts, and contract terms) to the rest of the world. Dero brings true privacy to smart contracts for the first time on any blockchain.
 
 
-Truly private smart contracts are a unique feature offered by DERO that other projects to date (April.1/2018) do not offer. Dero accomplishes this by keeping all ascepts of the transaction, smart contract, and users details private on the original blockchain without the need to trust sensitive or otherwise private information to second layer or off-chain solutions.
+Truly private smart contracts are a unique feature offered by DERO that other projects to date (April.10/2018) do not offer. Dero accomplishes this by keeping all aspects of the transaction, smart contract, and users details private on the original blockchain without the need to trust sensitive or otherwise private information to second layer or off-chain solutions.
 
 ## CHALLENGES
 * **Identification and know-your-client (KYC):**\
@@ -52,7 +53,7 @@ To register for the voting process, an individual must apply to the certifying a
 
 A smart contract of this nature will, of course, require flexibility, and the ability to be reprogrammed to suit the needs of any party that chooses to utilize a private smart voting contract. To that end, the Dero development team is working to keep as much flexibility in the system as possible. 
 
-* **ASSET MANAGEMENT: PRIVATE AND AUDITABLE** \
+* **Asset management: private and auditable:** \
     With Dero, assets can be recorded, distributed, or traded on the blockchain. Perhaps the most critical issue today facing asset management on the blockchain is privacy. Consider for a moment how assets are recorded today. Most assets are recorded in a private or centralized database like you may find at the Department of Motor Vehicles. Organizations or departments often have limited hours, cumbersome access to information policies, and substantial overhead costs. Bringing asset management to Dero’s blockchain will allow individuals unrestricted use of their own data, by allowing 24/7 access to anything they have stored on Dero’s blockchain while simultaneously offering unparalleled privacy.
     
 Any individual or organization that choose Dero’s blockchain for asset management will benefit from the highest levels of privacy by utilizing the CryptoNote protocol and complete SSL implementation across the entire network, among other critical features. For audits or tax purposes, all you have to do is provide a simple and convenient viewkey that will list all relevant history from the wallet. This view key can be easily programmed into tax software to reduce cost and human error, while insuring accuracy. It’s important to note that all details of wallets are entirely hidden from the rest of the network. As such, it is the individual wallet holders responsibility to make their relevant tax information known as required. 
@@ -66,7 +67,7 @@ Any individual or organization that choose Dero’s blockchain for asset managem
 ## DERO KEY FEATURES
 
 - **CryptoNote privacy:** CryptoNote currencies use a distributed public ledger that records all balances and transactions of its in-built currency like Bitcoin. Unlike Bitcoin, CryptoNote’s transactions cannot be followed through the blockchain in a way that reveals who sent or received coins. Dero utilizes all aspects of the CryptoNote protocol’s privacy features in its new blockchain technology to protect the identities of all parties involved in a transaction.
-- **Smart contracts:** A smart contract is a digital self-executing contract that is capable of enforcing the terms laid out by all participants in the contract. The goal of smart contracts is to significantly increase contract security while simultaneously reducing costs associated with traditional contracts.
+- **Smart contracts:** A smart contract is a digital self-executing contract that is capable of enforcing the terms laid out by all participants in the contract. One of the goals of a smart contract is to significantly increase contract security while simultaneously reducing costs associated with traditional contracts.
 - **Atomic swaps:** Atomic swaps make the exchange of one cryptocurrency for another possible without the need for a trusted third-party. To prevent one party from failing to send their coins, atomic swaps use something called hash time-locked contacts (HTLCs) to enable a trustless trading system.
 - **Mobile and offline wallets:** As with any currency, multiple forms of storage and varying degrees of financial availability are required. Dero is bringing a complete spectrum of wallet storage options to users by providing solutions that range from mobile wallets on mobile devices to offline 2FA (Two Factor Authentication) biometric identification protected hardware wallets.
 - **Lightweight wallet:** Instead of downloading the entire blockchain, a lightweight wallet connects to randomly selected decentralized nodes to utilize the data stored there. This dramatically reduces the amount of data required to transact on the network while maintaining the security of your private keys on your device, not the node the device is connected to.
@@ -77,19 +78,19 @@ Any individual or organization that choose Dero’s blockchain for asset managem
 
 ## DERO VIRTUAL MACHINE
 
-​    Smart Contracts on the DERO blockchain will run in a DERO Virtual Machine (DVM). DVM is a Turing complete 256-bit Virtual Machine runtime environment for DERO Smart Contracts with CryptoNote Protocol Privacy and additional modifications.
-​    DVM is unique in its ability to execute Smart Contracts while maintaining the privacy and fungiblity of the identities involved in the Smart Contracts. DVM will support the Golang language for writing Smart Contracts with the possibility of Solidity in the future.
-​    DVM is in the development phase, and several other features and optimizations are planned which may be added in the future.
+​    Smart contracts on the Dero blockchain will run in a Dero Virtual Machine (DVM). The DVM is a Turing complete 256-bit Virtual Machine runtime environment for Dero smart contracts with CryptoNote Protocol privacy and additional modifications.
+​    The DVM is unique in its ability to execute smart contracts while maintaining the privacy and fungiblity of the identities involved in the Smart Contracts. The DVM will support the Golang language for writing Smart Contracts with the possibility of Solidity in the future.
+​    The DVM is currently in the development phase and several other features and optimizations are planned which may be added in the future.
 
 ## ROADMAP
-* DERO Blockchain full Activation: Q1 2018. - Completed ahead of schedule
-* GUI Wallets, Sub Addresses, Atomic Swap, Smart Contract Testing: Q2 2018.
-* Smart Contract support on chain. Q3 2018. 
-* Strategic market expansion.  
+* Q1/2018 - Dero's new unique blockchain written and full Activation. - Completed ahead of schedule
+* Q2/2018 - GUI wallets, sub addresses, atomic swaps, and smart contract testing.
+* Q3/2018 - Smart contract support on chain. Q3 2018. 
+* Q4/2018 - Strategic market expansion.  
 
 ## SPECIFICATIONS
-* PoW algorithm: CryptoNight
-* Max supply: 18.4 million for first 8 years, Infinite ~157,000 DERO/year
+* PoW algorithm: CryptoNight 
+* Max supply: 18.4 million for the first 8 years followed by an infinite emission rate after year 8 of ~157,000 DERO/year
 * Block reward: Smoothly varying
 * Block time: 120 seconds
 * Difficulty: Retargets at every block
@@ -114,10 +115,12 @@ Any individual or organization that choose Dero’s blockchain for asset managem
 * Regular audits and updates of the core cryptography to negate the benefits of quantum computations.
 
 ## DERO PROJECT COMPANY :
-   Plan to incorporate a company which will market, develop, maintain, and expand DERO.
-Company would hire more developers, expand the marketing team, add advisors, and would be representing DERO to the world.
+   Dero plans to incorporate a company that will oversee the governance of the Dero Project, and guide development.
+   
+   Some of Dero's plans in this area include: marketing, new research and development, maintaining, and expanding DERO. The company will be the public face of Dero with the goal of hiring more developers, expanding the marketing team, adding advisors, and will be generally representing DERO to the world.
 
 	
 
+This document will be updated based on community input and feedback.
 
-**Draft Version, This document will be updated based on community inputs.**
+**Draft Version v2.0**
