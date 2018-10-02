@@ -1,3 +1,6 @@
+## [Click here for latest revision of Dero Whitepaper]( https://github.com/deroproject/documentation/blob/master/Dero_Whitepaper.pdf)
+
+## Following is archived whitepaper for latest Whiteapaper see above link.
 ## DERO Blockchain White Paper (Draft Version)
 
 ## Table of Contents
