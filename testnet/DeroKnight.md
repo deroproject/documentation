@@ -25,8 +25,15 @@ DeroKnight Testnet has been launched and to test your devices, please see follow
 1. Download [DeroKnight binary](https://github.com/deroproject/derosuite_testnet/releases) or compile from [source](https://github.com/deroproject/derosuite_testnet)
 1. Extract and execute derod binary with --testnet option `./derod-linux-amd64 --testnet`
 1. [Download and compile DeroKnight patched XMRSTAK(only for CPU atm)](https://github.com/deroproject/xmr-stak)
-1. Run xmrstak Eg:<br> `./bin/xmr-stak --currency cryptonight -o stratum+tcp://testnetpool.dero.io:3333 -u dEToRdMj76baEurCdqpn1XZpWnEpSrXQ9WiLWznYz26ECKmnQtFgTxrTc4dxen5YaER8UDpT6a9iGLHfzVd5qXxg5vBT3bhpFp -p x`
-1. **ASIC operators have to do nothing except connecting to DeroKnight supporting pool.**
+1. To build xmr-stak see following steps:  
+```
+git clone https://github.com/deroproject/xmr-stak.git  
+cd xmr-stak; mkdir -p build; cd build;  
+cmake -DCMAKE_LINK_STATIC=ON -DXMR-STAK_COMPILE=generic -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF -DMICROHTTPD_ENABLE=OFF ../
+```  
+Run xmrstak <br> `./bin/xmr-stak --currency cryptonight -o stratum+tcp://testnetpool.dero.io:3333 -u dEToRdMj76baEurCdqpn1XZpWnEpSrXQ9WiLWznYz26ECKmnQtFgTxrTc4dxen5YaER8UDpT6a9iGLHfzVd5qXxg5vBT3bhpFp -p x`
+
+**Note: ASIC operators have to do nothing except connecting to DeroKnight supporting pool.**
 
 [DeroKnight Testnet Pool](http://testnetpool.dero.io)  
 [DeroKnight Testnet Explorer](https://testnetexplorer.dero.io)  
