@@ -2,6 +2,11 @@
 [WhitePaper](Dero_Whitepaper.pdf) <br>
 [Archived WhitePaper](WhitePaper.md)
 
+## [Dero Mainnet](https://github.com/deroproject/derosuite)
+
+
+## [Dero Testnets](https://github.com/deroproject/documentation/blob/master/testnet/Readme.md)
+
 ## Additional GPG key of DeroProject
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
