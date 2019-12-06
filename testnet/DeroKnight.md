@@ -1,3 +1,4 @@
+# Dropped Not working as expected. Searching other algo.
 ### DeroKnight
 
 [DeroProject](dero.io) is testing new algo code named: **DeroKnight** .
