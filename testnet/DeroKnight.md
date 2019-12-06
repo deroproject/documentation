@@ -1,4 +1,4 @@
-# Dropped, Searching other algo.
+# DeroKnight testnet is Dropped, Searching other algo.
 ### DeroKnight
 
 [DeroProject](dero.io) is testing new algo code named: **DeroKnight** .
