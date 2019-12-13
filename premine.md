@@ -11,7 +11,7 @@ Community funds are fully intact and community wallet have complete one million 
 
 Following is the view key of community wallet.
 `9b3c5f17a6611cd9a3dfc4e50d01f3aeab30d9d664d0dd1b1a83841b012a13e2de11d1b045ee0b8172044bb8e827a6bc55240474bc76ecfc544be2bb6c25d106`  
-** Premine Screenshot **
+#### Premine Screenshot 
 ![Premine Screenshot](https://github.com/deroproject/documentation/blob/master/premine_DEC-2019.png)
 
 This page will be updated frequently(every 3-4 months) to reflect updated status of the community fund. All expenses if any will be updated here.  
