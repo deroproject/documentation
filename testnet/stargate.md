@@ -2,6 +2,8 @@
 
 **Download** Dero Stargate testnet [source](https://git.dero.io/DeroProject/derosuite_stargate) and [binaries](https://git.dero.io/DeroProject/Dero_Stargate_testnet_binaries).
 
+[Examples of other Dero Smart Contracts](https://forum.dero.io/t/dero-smart-contract-build-competition/891)
+
 **Start Dero daemon in testnet mode.**
 ```
 ./derod-linux-amd64  --testnet
