@@ -1,11 +1,11 @@
-## WhitePaper
-[WhitePaper](Dero_Whitepaper.pdf) <br>
-[Archived WhitePaper](WhitePaper.md)
+#### DERO Important Links
+1. [WhitePaper](Dero_Whitepaper.pdf)  
+1. [Archived WhitePaper](WhitePaper.md)  
+1. [Dero Mainnet](https://github.com/deroproject/derosuite)  
+1. [Dero Testnets](https://github.com/deroproject/documentation/blob/master/testnet/Readme.md)
+1. [Dero Premine Details](https://github.com/deroproject/documentation/blob/master/premine.md)  
+1. [DERO Wiki and Quickstart](https://github.com/deroproject/wiki/wiki)
 
-#### [Dero Mainnet](https://github.com/deroproject/derosuite)
-
-
-#### [Dero Testnets](https://github.com/deroproject/documentation/blob/master/testnet/Readme.md)
 
 #### Additional GPG key of DeroProject
 -----BEGIN PGP SIGNED MESSAGE-----
