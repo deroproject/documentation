@@ -1,9 +1,9 @@
 #### DERO Important Links
 1. [WhitePaper](Dero_Whitepaper.pdf)  
 1. [Archived WhitePaper](WhitePaper.md)  
-1. [Dero Mainnet](https://github.com/deroproject/derosuite)  
-1. [Dero Testnets](https://github.com/deroproject/documentation/blob/master/testnet/Readme.md)
-1. [Dero Premine Details](https://github.com/deroproject/documentation/blob/master/premine.md)  
+1. [DERO Mainnet](https://github.com/deroproject/derosuite)  
+1. [DERO Testnets](https://github.com/deroproject/documentation/blob/master/testnet/Readme.md)
+1. [DERO Premine Details](https://github.com/deroproject/documentation/blob/master/premine.md)  
 1. [DERO Wiki and Quickstart](https://github.com/deroproject/wiki/wiki)
 
 
@@ -21,13 +21,7 @@ rA9vcemPi9FXiZ7OrTQA/2drjzGy78fHnoY1+c1M1XF2cAO92slwWek1qtFY1GSv
 =2fiU
 -----END PGP SIGNATURE-----
  
-[DeroProject second GPG key](captain2key.asc) <br>
-[DeroProject primary GPG key](Captain_Dero_pub.txt)
-
-
-
-
-
-
+[DeroProject second GPG key](captain2key.asc)  
+[DeroProject primary GPG key](Captain_Dero_pub.txt)  
 
 
