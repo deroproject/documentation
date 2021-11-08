@@ -14,7 +14,7 @@
 // incoming represents incoming asset type basicallly an SCID
 // outgoing represents outgoing asset type basicallly an SCID
    Function Interchange(incoming String, outgoing String) Uint64
-	10  SEND_ASSET_TO_ADDRESS(SIGNER(),ASSETVALUE(incoming)/2, outgoing)   // 1 to 1 interchange of assets
+	10  SEND_ASSET_TO_ADDRESS(SIGNER(),ASSETVALUE(incoming)/2, outgoing)   // 1:1/2 interchange of assets
 	20  RETURN 0
 	End Function
 	
