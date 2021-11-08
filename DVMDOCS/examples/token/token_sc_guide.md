@@ -84,7 +84,7 @@ Currently these show as coinbase rewards.
 
 **Eg: To withdraw DERO balance from Smart Contract**
 ```
-curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{ "scid":"6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7", "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"Withdraw"}, {"name":"amount","datatype":"U","value":100000 }] }}' -H 'Content-Type: application/json'
+curl --silent  http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{ "scid":"'"fb349eed965fecb28318d9bbe44379cbbe6bb1321818d66707a1924e73d59d9e"'", "ringsize":2,"sc_rpc":[{"name":"entrypoint","datatype":"S","value":"Withdraw"}, {"name":"amount","datatype":"U","value":2 }] }}' -H 'Content-Type: application/json' | jq -r ".result.txid"
 ```  
 **NOTE:**  From [above SC](https://testnetexplorer.dero.io/tx/6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7) 1 DERO will be transferred from SC to wallet. Only owner of Smart Contract can initate the above command. SC must have that balance.  
 
