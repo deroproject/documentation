@@ -10,7 +10,7 @@ Step 1] [Create & install an asset/token](https://github.com/deroproject/documen
 ``` curl  --request POST --data-binary   @token.bas http://127.0.0.1:40403/install_sc ```  
 
 Step 2] [Create & install second asset/token](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/token).  
-``` curl  --request POST --data-binary   @token.bas http://127.0.0.1:40403/install_sc ```  
+``` curl  --request POST --data-binary   @token2.bas http://127.0.0.1:40403/install_sc ```  
 
 STEP 3] Create and install [example asset_exchange contract](./asset_exchange.bas).  
 ``` curl  --request POST --data-binary   @asset_exchange.bas http://127.0.0.1:40403/install_sc ```  
