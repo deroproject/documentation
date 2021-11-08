@@ -27,7 +27,7 @@ Step 6] From any wallet send assetOne exchange SCID.
 step 7] In wallet check balance of assetTwo.  
 ``` balance ASSET_TWO_SCID ```  
 
-#### NB: Following used above are variables, please change them.  
+#### NB: Following used above are variables, please change them. SCIDs  are transaction-IDs returned by respective commands.  
 Interchange-SCID  
 ASSET_ONE_SCID  
 ASSET_TWO_SCID  
