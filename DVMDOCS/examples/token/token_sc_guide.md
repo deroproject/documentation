@@ -49,20 +49,23 @@ balance SCID
 **Download SC Code,check SC balance and variables from chain**
 ```
 curl http://127.0.0.1:40402/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"getsc","params":{ "scid":"6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7" , "code":true}}' -H 'Content-Type: application/json'
-```
+```  
+
 
 
 **Examples of various private Smart Contract Token functions**  
+
+
 **To send private tokens from one wallet to another wallet, this does not involve SC**
 ```
-curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"transfer","params":{ "transfers":[{"amount":100000,"destination":"deto1qxsz7v707t8mla4mslptlf6w7zkgrukvg5wfna0tha48yfjcahwh64qxnus7f","scid":"6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7"}] }}' -H 'Content-Type: application/json'
+curl --silent http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"transfer","params":{ "transfers":[{"amount":10000,"destination":"'"deto1qyg4xr4t536vyan6eyv5vj406xcfwg8zx4c65ez3ut4s9uuv0dsgzqq276gck"'","scid":"'"fb349eed965fecb28318d9bbe44379cbbe6bb1321818d66707a1924e73d59d9e"'","ringsize":2}] }}' -H 'Content-Type: application/json' | jq -r ".result.txid"
 ```  
 
 
 
 **Convert DERO to Tokens**
 ```
-curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{"sc_dero_deposit":200000,"scid":"6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7", "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"IssueTOKENX"}] }}' -H 'Content-Type: application/json'
+curl --silent http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{"sc_dero_deposit":220000,"scid":"'"fb349eed965fecb28318d9bbe44379cbbe6bb1321818d66707a1924e73d59d9e"'","ringsize":2, "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"IssueTOKENX"}] }}' -H 'Content-Type: application/json' | jq -r ".result.txid"
 ```  
 **NOTE:**  In [above SC](https://testnetexplorer.dero.io/tx/6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7) 2 DERO is swapped to 2 TOKENX. For swap ratio look into Smart Contract code.  
 
@@ -71,7 +74,7 @@ curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"sci
 
 **Convert Tokens to DERO**
 ```
-curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{"sc_token_deposit":200000,"scid":"6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7", "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"ConvertTOKENX"}] }}' -H 'Content-Type: application/json'
+curl --silent http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{"sc_token_deposit":200000,"scid":"'"fb349eed965fecb28318d9bbe44379cbbe6bb1321818d66707a1924e73d59d9e"'","ringsize":2, "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"ConvertTOKENX"}] }}' -H 'Content-Type: application/json' | jq -r ".result.txid"
 ```  
 **NOTE:**  In [above SC](https://testnetexplorer.dero.io/tx/6c7f9f802a36a90346cb04a9ac1783766c798cdeecd89be7a1f5bf92efdfdef7) 2 TOKENX is swapped to 2 DERO. For swap ratio look into Smart Contract code.   
 Currently these show as coinbase rewards.  
