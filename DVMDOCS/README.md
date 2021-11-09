@@ -1,16 +1,10 @@
-# DERO Virtual Machine (DVM) 
+### DERO Virtual Machine (DVM) 
 
-DERO Virtual Machine represents entire DERO Smart Contracts eco-system which runs on the DERO block chain.
+DERO Virtual Machine represents entire DERO Smart Contracts eco-system which runs on the DERO block chain.  
 
-Documentation
+DVM is a decentralized platform that runs both public and private smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.Public Smart contracts are open versions. However, the  DVM is being designed to support Private Smart Contracts where everything is hidden, eg parties, and information involved. Smart Contracts are nothing but rules which apply on transacting parties.  
 
-DVM is a decentralized platform that runs both public and private smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.Public Smart contracts are open versions. However, the  DVM is being designed to support Private Smart Contracts where everything is hidden, eg parties, and information involved. Smart Contracts are nothing but rules which apply on transacting parties.
-
-Current version of DVM is an interpretor based system to avoid security vulneribilities, issues and compiler backdoors. This also allows easy audits of Smart Contracts for quality,bug-testing and security assurances. DVM supports a new language DVM-BASIC.
-
------
-
-
+Current version of DVM is an interpretor based system to avoid security vulneribilities, issues and compiler backdoors. This also allows easy audits of Smart Contracts for quality,bug-testing and security assurances. DVM supports a new language DVM-BASIC.  
 
 DVM apps run on a from scratch custom built privacy supporting, encrypted blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of assets/property without leaking any information.No one knows who owns what and who transferred to whom.
 
@@ -25,7 +19,7 @@ These functions can be invoked over the blockchain to do something. SCs can act 
 
 * DVM supports number of comments formats such as ', // , /* */  as good documentation is necessary.
 
-Example Factorial program
+#### DVM Example Factorial program
 
 ```
 ' This is a comment
@@ -44,21 +38,18 @@ Example Factorial program
 End Function
 ```
 
-#### VM are written in a DVM-BASIC custom BASIC style language with line numbers.
-#### DVM supports  uint64 and string data-types.
-#### DVM interprets the smart-contract and processes the SC line-line 
+*  DVM smart contracts are written in a DVM-BASIC custom BASIC style language with line numbers.
+*  DVM supports uint64 and string data-types.
+*  DVM interprets the smart-contract and processes the SC line-line 
  
 * uint64 supports almost all operators namely  +,-,*,/,% 
 * uint64 support following bitwise operators & ,|,  ^, ! , >> , <<
 * uint64 supports following  logical operators  >, >= , <, <=, == , !=  
-
 * string supports only + operator. string support concatenation with a uint64.
 * string supports ==, != logical operators.
-
 * All DVM variables are mandatory to define and are initialized to default values namely 0  and "".
 
-
-A SC execution must return 0 to persist any changes made during execution. During execution, no panics should occur.
+#### Smart Contract execution must return 0 to persist any changes made during execution. During execution, no panics should occur.
 
 ### DERO Smart Contract Examples  
 First Smart Contract :[Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
