@@ -52,6 +52,7 @@ End Function
 #### Smart Contract execution must return 0 to persist any changes made during execution. During execution, no panics should occur.
 
 ### DERO Smart Contract Examples  
-First Smart Contract :[Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
-Second Smart Contract:[Lunching your exchange for interchanging tokens/assets issued above.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
-DERO Smart Contract Examples:[DVM SC Examples](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples)  
+First Smart Contract: [Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
+Second Smart Contract: [Lunching your exchange for interchanging tokens/assets issued above.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
+[DERO Smart Contract Examples](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples)  
+[More Examples](https://forum.dero.io/t/darch-decentralized-architecture-competition-series/1318)
