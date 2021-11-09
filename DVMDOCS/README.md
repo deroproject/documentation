@@ -53,6 +53,6 @@ End Function
 
 ### DERO Smart Contract Examples  
 First Smart Contract: [Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
-Second Smart Contract: [Lunching your exchange for interchanging tokens/assets issued above.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
+Second Smart Contract: [Launching your exchange for interchanging tokens/assets.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
 [DERO Smart Contract Examples](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples)  
 [More Examples](https://forum.dero.io/t/darch-decentralized-architecture-competition-series/1318)
