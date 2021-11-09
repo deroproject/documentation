@@ -1,4 +1,4 @@
-## Dero Stargate DVM Smart Contracts guide to install and test various function of private token Smart Contract.
+#### Dero Stargate DVM Smart Contracts guide to install and test various function of private token Smart Contract.
 
 
 
