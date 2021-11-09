@@ -44,10 +44,10 @@ Example Factorial program
 End Function
 ```
 
-### DVM are written in a DVM-BASIC custom BASIC style language with line numbers.
+#### VM are written in a DVM-BASIC custom BASIC style language with line numbers.
 #### DVM supports  uint64 and string data-types.
 #### DVM interprets the smart-contract and processes the SC line-line 
-
+ 
 * uint64 supports almost all operators namely  +,-,*,/,% 
 * uint64 support following bitwise operators & ,|,  ^, ! , >> , <<
 * uint64 supports following  logical operators  >, >= , <, <=, == , !=  
@@ -59,3 +59,8 @@ End Function
 
 
 A SC execution must return 0 to persist any changes made during execution. During execution, no panics should occur.
+
+### DERO Smart Contract Examples  
+First Smart Contract :[Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
+Second Smart Contract:[Lunching your exchange for interchanging tokens/assets issued above.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
+DERO Smart Contract Examples:[DVM SC Examples](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples)  
