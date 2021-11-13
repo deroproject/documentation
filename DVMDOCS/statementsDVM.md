@@ -65,3 +65,16 @@ Syntax:
 20 IF COUNT == 0 THEN GOTO 110 ELSE GOTO 200
 ```
 
+#### LET  
+LET is used to assign a value to a variable.   
+Value can be as complex as possible and can contain complex expression.  
+Syntax:  
+```
+10 LET COUNT = 10
+10 LET x = 2 + 3 + ADD(2,3)
+```
+Any assignments within DVM can only be done using LET.  
+ 
+
+
+
