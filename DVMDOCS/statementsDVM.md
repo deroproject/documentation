@@ -40,7 +40,7 @@ Any error caused during processing will immediately stop execution and discard a
 Any entrypoint which returns uint64 value 0 is termed as success and will make transaction to commit all state changes.  
 
 #### GOTO
-GOTO is used to jump to any line number within the function.
+GOTO is used to jump to any line number within the function.  
 GOTO cannot cross function boundary.  
 Syntax:  
 ```
@@ -51,5 +51,17 @@ Function Withdraw( amount Uint64) Uint64
 30  SEND_DERO_TO_ADDRESS(SIGNER(),amount)
 40  RETURN 0
 End Function``
-
 ```
+
+#### IF  
+IF statement executes a statement if a specified condition is true.  
+IF has following forms:
+1. IF condition THEN GOTO lineNumber
+2. IF condition THEN GOTO lineNumber ELSE GOTO lineNumber  
+  
+Syntax:  
+```
+10 IF COUNT == 0 THEN GOTO 110
+20 IF COUNT == 0 THEN GOTO 110 ELSE GOTO 200
+```
+
