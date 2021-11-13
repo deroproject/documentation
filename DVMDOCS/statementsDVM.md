@@ -14,7 +14,7 @@ Supported type in DVM are Uint64, String.
 All DVM variables are mandatory to be defined and are initialized to default values: 0 for Uint64  and "" for String.  
 
 #### Function  
-Function statement is used to define a function. 
+Function statement is used to define a function.  
 Syntax:  
 ```
 Function ADD(x uint64, y uint64) uint64 
@@ -37,4 +37,19 @@ DVM functions follow some following rules:
 * A function can have a implicit parameter value of type uint64, which contains amount of DERO value sent with the transaction.
 
 Any error caused during processing will immediately stop execution and discard all changes that occur during SC execution.  
-Any entrypoint which returns uint64 value 0 is termed as success and will make transaction to commit all state changes.
+Any entrypoint which returns uint64 value 0 is termed as success and will make transaction to commit all state changes.  
+
+#### GOTO
+GOTO is used to jump to any line number within the function.
+GOTO cannot cross function boundary.  
+Syntax:  
+```
+// If signer is owner then withdraw. 
+Function Withdraw( amount Uint64) Uint64 
+10  IF LOAD("owner") == SIGNER() THEN GOTO 30 
+20  RETURN 1
+30  SEND_DERO_TO_ADDRESS(SIGNER(),amount)
+40  RETURN 0
+End Function``
+
+```
