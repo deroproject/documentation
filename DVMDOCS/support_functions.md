@@ -1,4 +1,4 @@
-#### Support Functions are inbuilt functions which provide some functionality or expose internals for speed and technical reasons.
+#### DVM inbuilt support functions which provide some functionality or expose DVM internals.
 
 #### List of DVM support functions.
 1. [LOAD](#load) 
