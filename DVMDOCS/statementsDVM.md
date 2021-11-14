@@ -73,7 +73,28 @@ Syntax:
 10 LET COUNT = 10
 10 LET x = 2 + 3 + ADD(2,3)
 ```
-Any assignments within DVM can only be done using LET.  
+Any assignments within DVM can only be done using LET. 
+
+
+#### RETURN
+RETURN is used to return from a function.  
+RETURN has following forms:  
+1. RETURN (return nil)
+2. RETURN expression 
+
+Syntax:
+```
+10 RETURN 0
+20 RETURN X + Y
+```
+Return value must match with the type defined while declaring function.  
+RETURN can be used anywhere within a function.  
+
+
+
+
+
+
  
 
 
