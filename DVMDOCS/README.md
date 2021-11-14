@@ -25,15 +25,13 @@ These functions can be invoked over the blockchain to do something. SCs can act 
 ' This is a comment
 // This comment is supported
 /* this is multi-line comment  */
-// printf is not supported in latest DVM. Please comment or remove printf from all old Smart Contracts.
- Function Factorial(s Uint64) Uint64   // this is a commment
+Function Factorial(s Uint64) Uint64   // this is a commment
 	10  DIM result,scopy as Uint64     /* this is also comment */
 	15  LET scopy =  s
 	20  LET result = 1
 	30  LET result = result * s
 	40  LET s = s - 1
 	50  IF s >= 2 THEN GOTO 30
-	//60  PRINTF "FACTORIAL of %d = %d" scopy result // printf is not supported in latest DVM.
 	70  RETURN result
 End Function
 ```
