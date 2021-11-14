@@ -1,5 +1,13 @@
 ### Statements supported by  DERO Virtual Machine.  
 
+### List of DVM statements
+1. [DIM](#dim) 
+1. [FUNCTION](#function) 
+1. [GOTO](#goto) 
+1. [IF](#if) 
+1. [LET](#let) 
+1. [RETURN](#return) 
+
 #### DIM 
 DIM stands for data in memory and is used to define variable names within a function.  
 
@@ -13,7 +21,7 @@ Syntax:
 Supported type in DVM are Uint64, String.  
 All DVM variables are mandatory to be defined and are initialized to default values: 0 for Uint64  and "" for String.  
 
-#### Function  
+#### FUNCTION  
 Function statement is used to define a function.  
 Syntax:  
 ```
