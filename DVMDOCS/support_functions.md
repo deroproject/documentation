@@ -21,38 +21,43 @@
 
 
 ##### LOAD
+LOAD(variable)  
 LOAD loads a variable which was previously stored in the blockchain using STORE function.  
 Return type will be Uint64/String depending on stored data type.  
 Panic if the value does NOT exists.  
 Syntax:
 ```
-
+10  IF LOAD(name) != SIGNER() THEN GOTO 30 
 ```
 
-
 #### EXISTS
+Uint64 EXISTS(variable)  
 EXISTS return 1 if the variable is store in DB and 0 otherwise.  
 Syntax:
 ```
-
+10 IF EXISTS(name) THEN GOTO 50
 ```
 
 #### STORE
+STORE(keyVariable, KeyValue)  
 STORE stores key and value in the DB. All storage state of the SC is accessible only from the  SC which created it.  
 Syntax:
 ```
-
+10  STORE("owner", SIGNER()) // Store in DB ["owner"] = address
 ```
 
 #### RANDOM
-RANDOM returns a random using a PRNG seeded on BLID,SCID,TXID. First form gives a uint64, second form returns 
-random number in the range 0 - (limit),  0 is inclusive, limit is exclusive.  
+Uint64 RANDOM(), Uint64 RANDOM(limit Uint64)  
+First form gives a uint64.
+RANDOM returns a random using a PRNG seeded on BLID,SCID,TXID. 
+Second form returns random number in the range 0 - (limit),  0 is inclusive, limit is exclusive.    
 Syntax:
 ```
-
+10 LET winner = RANDOM() % deposit_count // Finding winner.
 ```
 
 #### SCID
+String SCID()  
 Returns SMART CONTRACT ID which is currently running.  
 Syntax:
 ```
@@ -61,6 +66,7 @@ Syntax:
 
 #### BLID
 Returns current BLOCK ID which contains current execution-in-progress TXID.  
+String BLID()  
 Syntax:
 ```
 
@@ -68,6 +74,7 @@ Syntax:
 
 #### TXID
 Returns current TXID which is execution-in-progress.  
+String TXID()  
 Syntax:
 ```
 
@@ -75,6 +82,7 @@ Syntax:
 
 #### BLOCK_HEIGHT
 Returns current chain height of BLID().  
+Uint64 BLOCK_HEIGHT()  
 Syntax:
 ```
 
@@ -82,6 +90,7 @@ Syntax:
 
 #### BLOCK_TOPOHEIGHT
 Returns current topoheight of BLID().  
+Uint64  BLOCK_TOPOHEIGHT()  
 Syntax:
 ```
 
@@ -89,26 +98,30 @@ Syntax:
 
 #### SIGNER
 Returns address of who signed/sent this transaction. SIGNER() returns the raw address.  
+String SIGNER()  
 Syntax:
 ```
-
+10  IF LOAD("owner") == SIGNER() THEN GOTO 30
 ```
 
 #### IS_ADDRESS_VALID
 Returns 1 if address is valid, 0 otherwise.  
+Uint64 IS_ADDRESS_VALID(p String)
 Syntax:
 ```
 
 ```
 
 #### ADDRESS_RAW
-Returns address in RAW form as 33 byte keys, stripping away textual/presentation form. Addresses should always be compared in  RAW form.  
+Uint64 IS_ADDRESS_VALID(p String)  
+Returns address in RAW form as 33 byte keys, Stripping away textual/presentation form. Addresses should always be compared in raw form.  
 Syntax:
 ```
 
 ```
 
 #### SEND_DERO_TO_ADDRESS
+SEND_DERO_TO_ADDRESS(a String, amount Uint64)  
 Sends amount DERO  from SC DERO balance to a address which should be raw form. address must in string form DERO/DETO form.  
 If the SC does not have enough balance, it will panic.  
 Syntax:
@@ -117,9 +130,10 @@ Syntax:
 ```
 
 #### ADD_VALUE
+ADD_VALUE(a String, amount Uint64)  
 Send specific number of token to specific account.  
-If account is bring touched for the first time, it is done simply.  
-If account is already initialized ( it already has some balance, but SC does not know how much). So, it gives additional balance homomorphically.  
+If account is being touched for the first time, Tt is done simply.  
+If account is already initialized ( It already has some balance, but SC does not know how much). So, It gives additional balance homomorphically.  
 Syntax:
 ```
 
