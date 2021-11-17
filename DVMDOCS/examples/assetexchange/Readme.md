@@ -21,7 +21,7 @@ Step 4] Deposit assetOne/token1 to exchange contract.
 Step 5] Deposit assetTwo/token2 to exchange contract.  
 ```   curl --silent http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"transfer","params":{"scid":"'"Interchange-SCID"'","ringsize":2, "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"Deposit"}], "transfers": [ {"scid":"'"ASSET_TWO_SCID"'", "burn":AssetTwoCount_DEPOSITED_TO_EXCHANGE}] }}' -H 'Content-Type: application/json'  ```  
 
-Step 6] From any wallet send assetOne exchange SCID.  
+Step 6] From any wallet send assetOne to exchange SCID.  
 ```  curl --silent http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"transfer","params":{"scid":"'"Interchange-SCID"'","ringsize":2, "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"Interchange"},{"name":"incoming","datatype":"H","value":"'"ASSET_ONE_SCID"'"},{"name":"outgoing","datatype":"H","value":"'"ASSET_TWO_SCID"'"}], "transfers": [{"scid":"'"ASSET_ONE_SCID"'", "burn":AssetOneCount_TO_BE__Converted}] }}' -H 'Content-Type: application/json'  ```   
 
 step 7] In wallet check balance of assetTwo.  
