@@ -8,6 +8,7 @@ Check whether username is already registered. You cannot register username if al
 Register and associate DERO wallet to username.  
 ``` curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{"scid":"0000000000000000000000000000000000000000000000000000000000000001","ringsize":2, "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"Register"}, {"name":"name","datatype":"S","value":"TESTUSERNAME" }] }}' -H 'Content-Type: application/json' ```  
 
+#### NB: Replace TESTUSERNAME with your desired available username ina vove steps.  
 #### NB: "scid":"0000000000000000000000000000000000000000000000000000000000000001"  is reserved for nameservice registration.  
 
 
