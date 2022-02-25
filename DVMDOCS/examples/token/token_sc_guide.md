@@ -113,5 +113,5 @@ curl --silent  http://127.0.0.1:$player1_rpc_port/json_rpc -d '{"jsonrpc":"2.0",
 ```
 curl http://127.0.0.1:40403/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"scinvoke","params":{ "scid":"YourSCID", "sc_rpc":[{"name":"entrypoint","datatype":"S","value":"UpdateCode"}, {"name":"code","datatype":"S","value":"new code should be placed here" }] }}' -H 'Content-Type: application/json'
 ```   
-**NOTE:**  Please use this command carefully. Try this command several times on testnet before issuing on maiinet to update SC code.  
+**NOTE:**  Please use this command carefully. Try this command several times on testnet before issuing on mainnet to update SC code.  
 
