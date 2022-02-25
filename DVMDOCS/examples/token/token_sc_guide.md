@@ -36,7 +36,7 @@ Connect to explorer using browser on localhost:8080
 1. Private SCs have their smart contract data public. But no one knows how many tokens a particular user own or how much is he sending or how much is he receiving. Best example is to understand private SCs as banks and private tokens as cash. Once cash is out from the bank, Bank doesn't know "who has what amount or how is it being used/sent/received etc.". This makes all private tokens completely private.
 
 **Installing Private Smart Contract.**  
- [Download token.bas](https://git.dero.io/DeroProject/derosuite_stargate/src/master/cmd/dvm/token.bas)
+ [Download token.bas](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/lottery/lottery.bas)
 ```
 curl  --request POST --data-binary   @token.bas http://127.0.0.1:40403/install_sc
 ```
