@@ -1,0 +1,73 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+
+
+DERO Stargate launch date: 26 FEB 2022.  
+https://github.com/deroproject/derohe  
+
+Please use following addresses only for DERO SWAP from DERO-ATLANTIS(CryptoNote) to new DERO-STARGATE(Homomorphic Encryption):  
+
+Exchanges have one month period to swap from day of announcement and rest all other users can swap for next few months.  
+
+Step 1] Please use any one of the following addresses only to deposit your existing DERO(Atalntis):  
+
+Deposit Address1 for normal users swaps:  
+dERoVUQjwDdEsFGwF4YdYAhmgv1nNXRkgZkbtTeitsgxNrKw6tbUF3pAPRuNw4AMCcTKXow2HmAfM4Km3Qo7R9jJ7SA3W7eDK3  
+
+
+Deposit Address2 for normal users swaps:
+dERogEEMBgsS5Yp5M6TUT52SKbY7wQHyVQKXbjjsDAh9e8Bw5NRP52sYzzoCS4ULepFUixddZMVau7ZMoSMWByy53byFMFzTeG  
+
+
+Deposit Address for Kucoin Exchange swaps:
+dERoTkCdC3y5eXvHuiu9HYetJBm7gvPyebU4AnWGcGmsKNxK7YuPuish61e6XKWWQmc2Tgx6cv4FbTgmo5nPNXLg9giKB39Lyu  
+
+
+Deposit Address for Tradeogre Exchange swaps:
+dERoqz3Tu64AWVx7ianrZz59bcvabYK9XgyG4YvDJdjWNQ9ur9wt6LAYKv71PxEGHA8JCX8xdaQd3MyrKZtgFUseAAZ4xafZhW  
+
+
+Deposit Address for any other exchanges:  
+dERoX6JxfD2Y42sd3b6C93BFwBLNrXh5663dZsRCvTjK72VGUNUwPRZXbtqYCYQiqFGyGpW1fmEJGEsA7d6ApG5v24G5z5EXVJ  
+
+
+
+Step 2]  
+After deposit send transactionID obtained above in format "TXID:amountSent" to following DERO stargate address,    
+dero1qy867gnj0snrcrtwxgqchmn84t8d4cnzcnhdd4xh6qnhx70j4uhf5qgrmcvgg  
+
+Use comment section of Stargate wallet in option 5 to enter "TXID:amountSent".  
+set ringsize 2  in wallet before sending TX.  
+Choose transfer amount to be 0.00001. All Stargate wallets will have 0.00200 DERO to cover transaction fees for swap for one month.   
+
+
+Step 3]  
+Keep your above deposit transaction-ID,seeds etc. safe and secure till you receive your Stargate DEROs.     
+Swap will began after 1 week of Stargate launch.    
+
+
+For detailed guide with images of above swap process please visit: https://docs.dero.io/rtd_pages/basic_cntohe.html  
+
+
+No rush or panic. Swap will last for several months. Keep you TXID,amount details and seeds of both Atlantis & Stargate safe.  
+
+https://dero.io    
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE3tH+9EKXoVytmuKDGM2z7V6F0tQFAmIcqwMACgkQGM2z7V6F
+0tR7+A//alfsnIxb9Mm8B1lxCjFJbDrShHOXH0LLnqd2cfGF6YgTED0dlFYRaaDw
+Lcgo1FoP8awLfrphavlrEFC2NnbfswlcD+b4NrZ9byPb3oeLUcl9W4KAsgs23m31
+jayDwTBBncKbfx0R6aAgfSKuOBsh43QOTY3WgUW889HTTlAXLefgvt35goZ7I8qh
+CmHe8ubUuo37fcEdun6vRZnS1NwnP+EgaKeweP3oP9hJNI5B5QziAJnLliYDFzB0
+n8HAfP3Y0vyYYaOAGTJJ8hxdjiALFh/KGCNsPuro/aRzMeHv8y32aia8ZZGv5Evu
+tC6cSaSSJKWAt/4N6V2DfhD4pe0D8CPqJS5/jl7hNN8ybj2irQsUXRb+/XMz1i2R
+LlvMMyAiZXnWkZ/M+xFyKJ8PMDGVxs051qIs2gQ8Ccw3mcI7FwGyiEEpefy6SnWT
+E6wl2pIFkVRM5M4k4VEOL9Joph89pmxerpcLLR1bbzXINJyrdANBxpiDvfqZ+9er
+fLq9hA4rbsx0bgsBVRUokKasUqaaGvPiNZ0S0EwxQucTHTjWxuqhW0iMatKGTg0z
+6v3bkdEiXy3CwZP0pX/zNQl/wA+KIeUkXdOMY+ta2CkqsIkvZDWgFYxvwvVl3lCL
+L1n3Ddf9+Qu7wELMH0LYU1wAuBLP9eFTZ7NOCuUHWOiiUTHK1cY=
+=PuGp
+-----END PGP SIGNATURE-----
