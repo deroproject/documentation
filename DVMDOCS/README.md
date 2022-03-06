@@ -53,4 +53,18 @@ End Function
 First Smart Contract: [Launching your token/asset on DERO blockchain.](https://github.com/deroproject/documentation/blob/master/DVMDOCS/examples/token/token_sc_guide.md)  
 Second Smart Contract: [Launching your exchange for interchanging tokens/assets.](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples/assetexchange)  
 [DERO Smart Contract Examples](https://github.com/deroproject/documentation/tree/master/DVMDOCS/examples)  
-[More Examples](https://forum.dero.io/t/darch-decentralized-architecture-competition-series/1318)
+[More Examples](https://forum.dero.io/t/darch-decentralized-architecture-competition-series/1318)  
+
+### DERO Default Ports: 
+```
+Mainnet:
+P2P Default Port: 10101
+RPC Default Port: 10102
+Wallet RPC Default Port: 10103
+
+Testnet:
+P2P Default Port: 40401
+RPC Default Port: 40402
+Wallet RPC Default Port: 40403
+```
+**NB:**: Change ports to mainnet or testnet based on your requirements.  
