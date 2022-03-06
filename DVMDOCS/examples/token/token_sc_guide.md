@@ -4,6 +4,20 @@
 
 **Download** Dero Stargate testnet [source](https://github.com/deroproject/derohe) and [binaries](https://github.com/deroproject/derohe/releases).
 
+**DERO default ports:** 
+```
+Mainnet:
+P2P Default Port: 10101
+RPC Default Port: 10102
+Wallet RPC Default Port: 10103
+
+Testnet:
+P2P Default Port: 40401
+RPC Default Port: 40402
+Wallet RPC Default Port: 40403
+```
+**NB:**: Change ports to mainnet or testnet based on your requirements.   
+
 **Start Dero daemon in testnet mode.**
 ```
 ./derod-linux-amd64  --testnet
@@ -26,8 +40,8 @@ dero-wallet-cli-linux-amd64 --wallet-file testnet2.wallet --testnet --rpc-server
 Connect to explorer using browser on localhost:8080
 
 
-**Dero Stargate Testnet Explorer**  
-[https://testnetexplorer.dero.io/ ](https://testnetexplorer.dero.io/)
+**Dero Stargate Mainnet Explorer**  
+[https://explorer2.dero.io/ ](https://explorer2.dero.io/)
 
 
 
