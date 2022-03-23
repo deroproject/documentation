@@ -22,7 +22,7 @@ rA9vcemPi9FXiZ7OrTQA/2drjzGy78fHnoY1+c1M1XF2cAO92slwWek1qtFY1GSv
 =2fiU
 -----END PGP SIGNATURE-----
  ```
-[DeroProject second GPG key](captain2key.asc)  
-[DeroProject primary GPG key](Captain_Dero_pub.txt)  
+[DeroProject second GPG key](https://raw.githubusercontent.com/deroproject/documentation/master/captainKEY2.asc)  
+[DeroProject primary GPG key](https://raw.githubusercontent.com/deroproject/derosuite/master/Captain_Dero_pub.txt)  
 
 
