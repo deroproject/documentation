@@ -58,9 +58,10 @@ Second Smart Contract: [Launching your exchange for interchanging tokens/assets.
 ### DERO Default Ports: 
 ```
 Mainnet:
-P2P Default Port: 10101
-RPC Default Port: 10102
-Wallet RPC Default Port: 10103
+Mining Getwork Port: 10100 TCP  
+P2P Default Port: 10101 UDP  
+RPC Default Port: 10102 TCP  
+Wallet RPC Default Port: 10103 TCP  
 
 Testnet:
 P2P Default Port: 40401
