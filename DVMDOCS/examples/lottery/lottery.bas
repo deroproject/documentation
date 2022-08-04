@@ -25,18 +25,19 @@ This lottery smart contract will give lottery wins on every second try in follow
 
 	
 	// This function is used to initialize parameters during install time
+	// Smart contract authors should hardcode their intended address for contract ownership, then add a check within the Initialize() or InitializePrivate() functions to ensure that the caller is the true owner.
 	Function Initialize() Uint64
-	5 version("1.2.3")
-	10  STORE("owner", SIGNER())   // store in DB  ["owner"] = address
-	20  STORE("lotteryeveryXdeposit", 2)   // lottery will reward every X deposits
+	10  IF SIGNER() == address_raw("dero1qywqad0njut7h4h0h0933dfspsdeyfphzzcs5ujw03ghqzhhw8c9zqqevltfj") THEN GOTO 30 //Exit unless smart contract owner.
+	20  RETURN 0 // exit 
+	30 version("1.2.3")
+	40  STORE("owner", SIGNER())   // store in DB  ["owner"] = address
+	50  STORE("lotteryeveryXdeposit", 2)   // lottery will reward every X deposits
         // How much will lottery giveback in 1/10000 parts, granularity .01 %
-	30  STORE("lotterygiveback", 9900)   // lottery will give reward 99% of deposits, 1 % is accumulated for owner to withdraw
-	33  STORE("deposit_count", 0)   //  initial players
-	34  STORE("deposit_total", 0)   //  total deposit of all players
-	// 35 printf "Initialize executed"
-	40 RETURN 0 
-	End Function 
-	
+	60  STORE("lotterygiveback", 9900)   // lottery will give reward 99% of deposits, 1 % is accumulated for owner to withdraw
+	70  STORE("deposit_count", 0)   //  initial players
+	80  STORE("deposit_total", 0)   //  total deposit of all players
+	90 RETURN 0 
+	End Function 	
 	
 	
         // Function to tune lottery parameters

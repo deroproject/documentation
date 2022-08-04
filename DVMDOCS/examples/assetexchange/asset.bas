@@ -17,9 +17,11 @@
 
     // This function is used to initialize parameters during install time
     // InitializePrivate initializes a private SC
+    // Smart contract authors should hardcode their intended address for contract ownership, then add a check within the Initialize() or InitializePrivate() functions to 	ensure that the caller is the true owner.
 	Function InitializePrivate() Uint64
+	10  IF SIGNER() == address_raw("dero1qywqad0njut7h4h0h0933dfspsdeyfphzzcs5ujw03ghqzhhw8c9zqqevltfj") THEN GOTO 40 //Exit unless smart contract owner.
+	20  RETURN 0 // exit 
 	40  RETURN 0 
-	End Function 
+	End Function	
 
-	
 	
