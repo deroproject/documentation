@@ -41,7 +41,7 @@ Connect to explorer using browser on localhost:8080
 
 
 **Dero Stargate Mainnet Explorer**  
-[https://explorer2.dero.io/ ](https://explorer2.dero.io/)
+[https://explorer.dero.io/ ](https://explorer.dero.io/)
 
 
 
